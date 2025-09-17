@@ -19,3 +19,6 @@ Pequeña app del clima que hice por cuenta propia, resultado de los primeros pas
 
 - ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)  
   Archivo local con miles de ciudades (`city.list.json`) para autocompletar y mejorar la búsqueda.
+  
+  - ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)  
+  Plataforma utilizada para el despliegue de la aplicación.
