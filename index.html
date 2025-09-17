@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projecto Clima</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <img src="img/logoweather.png" alt="Logo" class="logo" />
+            <h1>Proyecto Clima</h1>
+        </div>
+    </header>
+    <div class="main-box">
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar ciudad..." />
+        <ul id="suggestions"></ul>
+    </div>
+    <div class="city-name">
+        <h2 id="cityTitle">Merlo,Ar</h2>
+    </div>
+    <div class="datos-container">
+    <div class="datosclima">
+    <div class="clima-izq">
+        <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="icono del clima" class="icono-clima" />
+    </div>
+    <div class="clima-centro">
+        <h1 class="temp">20°C</h1>
+    </div>
+    <div class="clima-der">
+        <h2 class="description">Nublado</h2>
+    </div>
+</div>
+    <!-- Sensación térmica -->
+    <div class="sensacion-row">
+        <div class="sensacion-izq">
+            <img src="img/humidity.png" alt="icono termico" class="icono-termica" />
+        </div>
+        <div class="sensacion-centro">
+            <span>Sensación térmica</span>
+        </div>
+        <div class="sensacion-der">
+            <span class="valor-sensacion">30°C</span>
+        </div>
+    </div>
+    <!-- Humedad -->
+    <div class="clima-row">
+        <div class="clima-izq">
+            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="icono del clima" class="icono-humedad" />
+        </div>
+        <div class="clima-centro">
+            <span>Humedad</span>
+        </div>
+        <div class="clima-der">
+            <span class="valor-humedad">75%</span>
+        </div>
+    </div>
+    <!-- Presión -->
+    <div class="clima-row">
+        <div class="clima-izq">
+            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="icono del clima" class="icono-clima2" />
+        </div>
+        <div class="clima-centro">
+            <span>Presion</span>
+        </div>
+        <div class="clima-der">
+            <span class="valor-presion">1015</span>
+        </div>
+    </div>
+    
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
